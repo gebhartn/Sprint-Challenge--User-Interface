@@ -313,7 +313,7 @@ header nav a {
 .about-strategy-container {
   display: flex;
   justify-content: space-around;
-  border-top: 2px dotted black;
+  border-top: 1px dashed black;
 }
 .about-strategy-container img {
   margin-top: 6%;
@@ -330,12 +330,56 @@ header nav a {
   display: flex;
   flex-flow: column wrap;
   width: 45%;
-  border-bottom: 2px dotted black;
+  border-bottom: 1px dashed black;
 }
 
 .how-we-work {
   display: flex;
   flex-direction: column;
   width: 45%;
-  border-bottom: 2px dotted black;
+  border-bottom: 1px dashed black;
+}
+
+/* office-meeting */
+
+.office-meeting-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.office-meeting-container img {
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.office-meeting-container p {
+  margin-bottom: 3%;
+}
+.office-meeting-container a {
+  margin-bottom: 5%;
+}
+
+.office {
+  display: flex;
+  flex-flow: column wrap;
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+.meeting {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-bottom: 1px dashed black;
+}
+
+.work-together {
+  margin-top: 5%;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 5%;
+}
+
+.center {
+  margin: 0 auto;
+  width: 95%;
 }
