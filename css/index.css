@@ -383,3 +383,13 @@ header nav a {
   margin: 0 auto;
   width: 95%;
 }
+
+.main a {
+  border: 2px solid black;
+  padding: 3%;
+  width: 33%;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+}
