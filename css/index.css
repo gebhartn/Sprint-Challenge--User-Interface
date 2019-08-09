@@ -256,15 +256,15 @@ header nav a {
 }
 
 .middle-content .boxes .box:nth-child(1) {
-  background-color: darkcyan;
+  background-color: teal;
 }
 
 .middle-content .boxes .box:nth-child(2) {
-  background-color: yellow;
+  background-color: gold;
 }
 
 .middle-content .boxes .box:nth-child(3) {
-  background-color: lightskyblue;
+  background-color: cadetblue;
 }
 
 .middle-content .boxes .box:nth-child(4) {
@@ -276,7 +276,7 @@ header nav a {
 }
 
 .middle-content .boxes .box:nth-child(6) {
-  background-color: green;
+  background-color: forestgreen;
 }
 
 .middle-content .boxes .box:nth-child(7) {
@@ -292,4 +292,50 @@ header nav a {
 }
 .middle-content .boxes .box:nth-child(10) {
   background-color: dodgerblue;
+}
+
+.about img {
+  margin-bottom: 3%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.about-strategy-container {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px dotted black;
+}
+.about-strategy-container img {
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.about-strategy-container p {
+  margin-bottom: 3%;
+}
+.about-strategy-container a {
+  margin-bottom: 5%;
+}
+
+.strategy {
+  display: flex;
+  flex-flow: column wrap;
+  width: 45%;
+  border-bottom: 2px dotted black;
+}
+
+.how-we-work {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-bottom: 2px dotted black;
 }
